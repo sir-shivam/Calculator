@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+.navbar {
+    height: 80px;
+    background-color: #adb5bd;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid black ;
+    border-bottom: 2px solid black ;
+   
+}
+
+.nav1{
+    margin-right: 2rem;
+    width:20%;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.home , .history {
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+}
+.three-bar i,.three-bar{
+    color: #0f1111;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.calci1{
+    margin-left: 20rem;
+    background-color: #6c757d;
+    color: aliceblue;
+    border-radius: 1rem;
+    padding: 0.2rem 1rem 0.1rem  1rem;
+    border: 2px solid white;
+    
+}
+
+.three-bar :hover , .three-bar i :hover ,.home:hover ,.history:hover  {
+    background-color: #0f1111;
+    color: aliceblue;
+}
+.calci2{
+    font-size: 22px;
+    word-spacing: 1.4rem;
+}
+
+.calci3{
+    font-size: 30px;
+    margin-top: 0.4rem;
+    text-align: center;
+    color: white;
+}
+.calci-screen{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    margin: 0.75rem 0  0   0;
+    height: 42rem;
+    width: 26rem;
+    background-color: #0f1111;
+    border-radius: 1.2rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.screen {
+    width: 90%;
+    height: 31%;
+    background-color: #1c1b1b;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    
+   
+}
+
+i {
+    color: aliceblue;
+}
+
+
+.screen2 {
+    width: 95%;
+    height: 95%;
+    text-align: end;
+    align-content: end;
+    word-wrap:break-word;
+    overflow-y: auto;
+    font-size: 3.5rem;
+}
+
+.keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    height: 55%;
+    width: 93%;
+    align-items: center;
+
+}
+
+.strip {
+    width: 92%;
+    display: flex;
+    align-items: flex-start;
+    
+    
+}
+
+.recent {
+    margin: 0 17rem 0 1rem;
+    height:40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+}
+
+.recent1{
+    position: absolute;
+    left: -900%;
+    height: 400px;
+    background-color: #262727;
+    width: 300px;
+    word-wrap: break-word;
+    border-radius: 1rem;
+    visibility: hidden;
+    overflow-y: auto;
+}
+
+.recent1 p{
+    height: auto;
+    width: 80%;
+    border-bottom: 0.2px solid rgb(63, 63, 63);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.cut{
+    font-size: 1.3rem;
+    height:40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.cut:hover , .recent:hover{
+    background-color: #6c757d;
+}
+
+.digit {
+    height: 4rem;
+    width: 4rem;
+    background-color:#1c1b1b ;
+    border-radius: 50%;
+    margin:  0.5rem 0.5rem 0rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+#cut {
+    color: #ff2b00;
+}
+
+.spec {
+    color: greenyellow;
+}
+
+.total {
+    background-color: greenyellow;
+    color: #0f1111;
+    font-size: 2.6rem;
+}
+
+.digit i {
+    color: greenyellow  ;
+}
+
+.digit i:hover {
+    color : skyblue;
+}
+.digit:hover {
+    color : white;
+    background-color: #34383c;
+}
+
+#decimal {
+    font-size: 3rem;
+}
+
+.spec {
+    font-size: 1.4rem;
+}
+.ans1 {
+    text-align: right;  
+    margin-right: 30px;
+}
+.ans {
+    font-weight: bold;
+    text-align: right; 
+  margin-right: 30px;
+    font-size: 20px;
+}
+.del-his {
+    margin: 5px 0px 5px 50px;
+    padding-left: 20px;
+    height: 40px;
+    width: 70px;
+    border-radius: 0.3em;
+    align-content: center;
+    text-align: center;
+    border: 1px solid aliceblue;
+    display: none;
+
+}
+.del-his:hover{
+    background-color: #9da4a4;
+    color: #0f1111;
+}
+
+.empty{
+    height: 15rem;
+    width: 100%;
+    color: aqua;
+    align-content: center;
+    text-align:center;
+    
+}
