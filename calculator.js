@@ -13,6 +13,8 @@ const del= document.querySelector(".cut");
 const recent=document.querySelector(".recent");
 const del_his=document.querySelector(".del-his");
 const recent1=document.querySelector(".recent1");
+const three_bar = document.querySelector(".three-bar");
+const slide = document.querySelector(".slide");
 const display = () => {
     wideScreen.innerText=string;
     if(string == "error" || string == "undefined"){
@@ -216,4 +218,10 @@ del_his.addEventListener("click" , () => {
     document.querySelector(".del-his").style.display= "none";
     document.querySelector(".empty").style.display = "block";
     console.log(count2);
+})
+
+three_bar.addEventListener("click" , () => {
+    slide.style.transition="display 2s";
+    slide.style.display="block";
+    
 })

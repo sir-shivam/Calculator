@@ -41,6 +41,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    position: relative;
 }
 
 .calci1{
@@ -253,4 +254,15 @@ i {
     align-content: center;
     text-align:center;
     
+}
+
+.slide {
+    height: 43rem;
+    width: 18rem;
+    background-color: #36495c;
+    position: absolute;
+    margin-top: 48.5rem;
+    margin-left: 13.6rem;
+    color: white;
+    display: none;
 }
