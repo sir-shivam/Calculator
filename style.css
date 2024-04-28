@@ -33,6 +33,10 @@ body {
     align-items: center;
     border-radius: 0.75rem;
 }
+
+.history{
+    position: relative;
+}
 .three-bar i,.three-bar{
     color: #0f1111;
     height: 35px;
@@ -265,4 +269,16 @@ i {
     margin-left: 13.6rem;
     color: white;
     display: none;
+}
+
+.clone_history {
+    height: 400px;
+    background-color: #262727;
+    width: 300px;
+    word-wrap: break-word;
+    border-radius: 1rem;
+    position: absolute;
+    margin: 30% 0 0 25%;
+    display: none;
+    color: aliceblue;
 }

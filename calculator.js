@@ -15,6 +15,9 @@ const del_his=document.querySelector(".del-his");
 const recent1=document.querySelector(".recent1");
 const three_bar = document.querySelector(".three-bar");
 const slide = document.querySelector(".slide");
+const clone_history= document.querySelector(".clone_history");
+const history = document.querySelector(".history");
+
 const display = () => {
     wideScreen.innerText=string;
     if(string == "error" || string == "undefined"){
@@ -22,6 +25,13 @@ const display = () => {
     }
 }
 
+// function copyDiv(sourceDivClass, targetDivClass) {
+//     const sourceDiv = document.getElementsByClassName(`.${sourceDivClass}`);
+//     const targetDiv = document.getElementsByClassName(`.${targetDivClass}`);
+//     // const cloneDiv = sourceDiv.cloneNode(true); 
+//     targetDiv.appendChild(sourceDiv);
+//   }
+  
 const show= ()=> {
     if(count1==1){
         recent1.style.visibility= "hidden";
@@ -224,4 +234,10 @@ three_bar.addEventListener("click" , () => {
     slide.style.transition="display 2s";
     slide.style.display="block";
     
+})
+
+history.addEventListener("click" ,()=> { 
+    // copyDiv(recent1, clone_history);
+    clone_history.innerHTML=recent1.innerHTML;
+    clone_history.style.display="block";
 })
