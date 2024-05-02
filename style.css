@@ -34,6 +34,16 @@ body {
     border-radius: 0.75rem;
 }
 
+@media (max-width: 576px) {
+    .home , .history {
+        display: none;
+    }
+}
+@media (min-width: 576px) {
+    .calci1 {
+        margin-left: 20vw;
+    }
+}
 .history{
     position: relative;
 }
@@ -49,7 +59,7 @@ body {
 }
 
 .calci1{
-    margin-left: 20rem;
+    /* margin-left: 20rem; */
     background-color: #6c757d;
     color: aliceblue;
     border-radius: 1rem;
